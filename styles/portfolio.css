@@ -1,34 +1,72 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
-   color: #FD6E0A;
+
+.text-primary {
+    color: #FD6E0A;
 }
-.btn-primary{
+
+/* button related styles */
+.btn-primary {
+    width: 200px;
+    height: 64px;
     border-radius: 5px;
+    border: 0px;
     background: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500px;
+    padding: 18px 36px;
+
 }
+
 /* nav related styles */
-nav{
+nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
+    align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 51px;
 }
-nav a{
-color: #474747;
 
-font-size: 20px;
-font-weight: 400;
+nav a {
+    color: #474747;
 
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+/* header related styles */
+.header {
+    background: #FFF8F3;
+    width: 1600px;
+    height: 837px;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture {
+    width: 584px;
+    height: 676px;
 }
