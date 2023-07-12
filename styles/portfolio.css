@@ -163,8 +163,28 @@ nav a {
 }
 
 /* resume related styles */
-.resume {
-    color: #474747;
-    
+.resume-container {
+    display: flex;
+    gap: 50;
+    justify-content: space-between;
+}
 
+.resume-container hr {
+    margin: 20px;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 15px;
+
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
